@@ -1,0 +1,15 @@
+#%RAML 1.0
+title: sfdc-sys-api
+version: 
+description: This API connects to Salesforce
+
+
+/accounts:
+  get:
+    description: retrieve account details from salesforce
+    responses:
+      200:
+        body:
+          application/json: 
+            example: {"name": "ibsa", "accountId": "27227272"}
+            
